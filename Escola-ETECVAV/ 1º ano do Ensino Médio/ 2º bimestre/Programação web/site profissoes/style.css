@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 20px;
+    color: #FFFFFF;
+
+    background-color:#0F172A ;
+
+
+}
+
+nav a {
+    text-decoration: nome;
+    color: #06B6D4;
+    background-color: #1E293B;
+    margin-left: 15px;
+    padding: 10px 16px;
+    border-radius: 10px;
+    font-weight: 600;
+    display: inline-block;
+    transition: all 0.3 ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    width: 100%;
+    background-color: #0d1024;
+    display: flex;
+    align-items: center;
+    padding: 32px 40px;
+    box-sizing: border-box;
+    top: 0px;
+}
+
+.titulao {
+    color: #06B6D4;
+    margin-left: 1000px;
+    margin-top: -35px;
+    font-size: 70px;
+    text-align: right ;
+    display: inline-block;
+    padding: 10px;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+h1 {
+    color: #CBD5E1;
+    margin: 0;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+h2 {
+    color:#CBD5E1;
+    margin: 0;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 20px;
+}
+
+.circle {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul {
+
+
+    margin: 30px auto;
+    text-align: left;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.link-menu {
+    display: inline-block;
+    background: #1E293B ;
+    color: #06B6D4;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 12px;
+    font-weight: bold;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+    transition: 0.3s ease;
+}
+
+.link-menu:hover {
+    transform: translateY(-5px);
+}
+.caixa_esquerda {
+    width: 500px;
+}
+
+.caixa_esquerda {
+    font-family: 'litera';
+    background-color: #1E293B;
+    border-radius: 20px;
+    padding: 15px;
+    border: 1px solid #06B6D4;
+    width: 740px;
+    margin: 100px;
+     text-align: center;
+     margin-left: 300px;
+      margin-bottom: 35px;
+      margin-top: 1px;
+}
+
+.caixa {
+    font-family: 'litera';
+    background-color: #1E293B;
+    border-radius: 20px;
+    padding: 15px;
+    border: 1px solid #06B6D4;
+    width: 740px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.caixa-imagem {
+    background-color: #1E293B;
+    border-radius: 20px;
+    padding: 15px;
+     margin-bottom: 35px;
+     margin-right: 200px;
+     border: 3px solid #06B6D4;
+}
+
+.caixa-imagem img {
+    width: 450px;
+}
+.linha {
+    display: flex;
+    align-items: center;
+   gap: 5px;
+   
+}
+.center{
+    width: 100%;
+  text-align: center;
+}
+.icon{
+    font-size: 30px;
+}
