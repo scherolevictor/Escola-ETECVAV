@@ -1,0 +1,56 @@
+.botao {
+    padding: 12px 25px;
+    background-color: #0f8197;
+    color: rgb(17, 17, 17);
+    border: none;
+    border-radius: 8px;
+    transition: 0.3s;
+    transition: transform 0.3s ease;
+    box-shadow: 5px 5px 15px rgb(93, 236, 247);
+}
+
+.botao a {
+    color: white;
+    text-decoration: none;
+}
+
+.botao:hover {
+    transform: translateY(-5px);
+}
+
+body {
+    background: linear-gradient(135deg, #12001F, #1E1B4B, #1d0a63);
+    background-attachment: fixed;
+}
+
+.navbar {
+    min-height: 110px;
+}
+
+.card {
+    animation: aparecer 1s ease;
+    box-shadow: 5px 5px 15px rgb(85, 29, 218);
+}
+
+.logo {
+    margin-right: -250px;
+    margin-left: 150px;
+}
+
+ul {
+    padding-left: 15px;
+    margin:0;
+    text-align: center;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
