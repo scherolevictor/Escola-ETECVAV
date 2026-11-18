@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+
+    <style>
+  body {
+    font-family:  Verdana;
+}
+    
+</style>
+
+    <style>
+        body {
+            background-color: lightblue;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td {
+            text-align: left;
+            vertical-align: top;
+            padding: 10px;
+        }
+
+        .bloco {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .bloco img {
+            width: 150px;
+            height: auto;
+            flex-shrink: 0;
+            display: block;
+        }
+
+        .produtos {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        .produtos th,
+        .produtos td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table border="1" cellpadding="10">
+        <tr>
+            <td colspan="2">
+                <h1 style="color: rgb(43, 61, 226);">Linguagem CSS</h1>
+            </td>
+        </tr>
+
+        <td>
+
+                <div class="bloco">
+                    <div>
+                        <h1 style="color: rgb(43, 61, 226);">O que é CSS?</h1>
+
+                        <p>
+                            O CSS (Cascading Style Sheets) é a linguagem que define o estilo das páginas da web.
+                            Ele trabalha junto com o HTML, que organiza o conteúdo, enquanto o CSS cuida da
+                            aparência.<br>
+                            É graças a ele que conseguimos transformar páginas simples em layouts bonitos e
+                            organizados.<br>
+                            Com o CSS, podemos escolher cores, fontes, tamanhos, espaçamentos e até criar efeitos de
+                            animação.<br>
+                            Ele é essencial porque separa o conteúdo da apresentação, permitindo que o texto e as
+                            informações fiquem em HTML,<br>
+                            enquanto o visual é controlado pelo CSS. Isso facilita a manutenção e garante consistência
+                            em todo o site.
+                        </p>
+                    </div>
+
+                    <img src="imagem1.png.png" style="width: 200px;" width="600" alt="CSS Logo">
+                </div>
+
+                <div class="bloco">
+                    <div>
+                        <h1 style="color: rgb(43, 61, 226);">Seletores</h1>
+
+                        <p>
+                            Os seletores são usados para indicar quais elementos do HTML receberão o estilo.
+                            Eles funcionam como endereços que apontam para partes específicas da página.<br>
+                            Por exemplo, podemos selecionar todos os parágrafos, apenas os títulos ou até um botão
+                            específico.<br>
+                            Graças aos seletores, conseguimos aplicar estilos diferentes em cada parte do site,
+                            criando hierarquia e organização visual. É como dizer ao CSS: “aplique este estilo aqui”.
+                        </p>
+                    </div>
+
+                    <img src="imagem2.png.png" style="width: 350px;" alt="Seletores CSS">
+                </div>
+
+                <h1 style="color: rgb(43, 61, 226);">Propriedades</h1>
+
+                <p>
+                    As propriedades são os aspectos visuais que podem ser modificados em um elemento.
+                    Cada propriedade corresponde a uma característica da página.<br>
+                    Podemos alterar a cor do texto, o tamanho da fonte, o fundo de um bloco ou o espaço ao redor de uma
+                    imagem.<br>
+                    As propriedades são como opções que o CSS oferece para personalizar cada detalhe da aparência de um
+                    site.
+                </p>
+
+                <h1 style="color: rgb(43, 61, 226);">Valores</h1>
+
+                <p>
+                    Os valores são os ajustes aplicados às propriedades. Eles definem como a propriedade será
+                    exibida.<br>
+                    Se a propriedade é “cor”, o valor pode ser “azul”;<br>
+                    se a propriedade é “tamanho da fonte”, o valor pode ser “20px”.<br>
+                    Essa combinação de propriedade e valor é o que dá vida ao estilo de uma página.<br>
+                    É como escolher não apenas o que mudar, mas também como essa mudança deve aparecer.
+                </p>
+
+                <h1 style="color: rgb(43, 61, 226);">Conclusão</h1>
+
+                <p>
+                    Esses exemplos mostram como a combinação de propriedade + valor é usada para personalizar o estilo
+                    de uma página.<br>
+                    É como dar instruções específicas: “mude a cor para azul”, “aumente a fonte para 18px” ou “arredonde
+                    as bordas em 10px”.<br>
+                    Cada detalhe ajuda a construir um layout mais bonito, organizado e responsivo.
+                </p>
+
+                <center>
+                    <table class="produtos">
+                        <caption style="color:rgb(206, 37, 37)">tabela explicativa</caption>
+                        <tr>
+                            <th style="color:rgb(206, 37, 37)">Tipo</thstyle=>
+                            <th style="color:rgb(206, 37, 37)">Exemplo</th>
+                            <th style="color:rgb(206, 37, 37)">Descrição</th>
+                        </tr>
+                        <tr>
+                            <td style="color:rgb(206, 37, 37)">Seletor</td>
+                            <td>p</td>
+                            <td>Parágrafos</td>
+                        </tr>
+                        <tr>
+                            <td style="color:rgb(206, 37, 37)">Seletor</td>
+                            <td>.classe</td>
+                            <td>Elementos com Classe</td>
+                        </tr>
+                        <tr>
+                            <td style="color:rgb(206, 37, 37)">Seletor</td>
+                            <td>#id</td>
+                            <td>Elemento com ID específico</td>
+                        </tr>
+                        <tr>
+                            <td style="color:rgb(206, 37, 37)">Seletor</td>
+                            <td>a:hover</td>
+                            <td>Link ao passar o mouse</td>
+                        </tr>
+                        <tr>
+                            <td style="color:rgb(206, 37, 37)">Propriedade</td>
+                            <td>Color</td>
+                            <td>Cor do Texto</td>
+                        </tr>
+                        <tr>
+                            <td style="color:rgb(206, 37, 37)">Propriedade</td>
+                            <td>Font-size</td>
+                            <td>Tamanho da fonte</td>
+                        </tr>
+                        <tr>
+                            <td style="color:rgb(206, 37, 37)">Propriedade</td>
+                            <td>margin</td>
+                            <td>Espaço externo</td>
+                        </tr>
+                        <tr>
+                            <td style="color:rgb(206, 37, 37)">Propriedade</td>
+                            <td>Padding</td>
+                            <td>Espaço interno</td>
+                        </tr>
+                        <tr>
+                            <td style="color:rgb(206, 37, 37)">Propriedade</td>
+                            <td>border</td>
+                            <td>Borda</td>
+                        </tr>
+                    </table>
+                </center>
+
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
